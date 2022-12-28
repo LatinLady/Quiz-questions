@@ -1,12 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Merienda';font-size: 22px;
-    background-color: white;
+    background-color: rgb(204, 243, 252);
 }
 
 header {
@@ -14,13 +14,17 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
-    color: blueviolet;
+    color: rgb(7, 7, 8);
     height: 60px;
     font-size: 2vw;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Merienda';font-size: 22px;
+    padding: 10px 10px 0 10px;
+    font-size: 22px;
+    font-family: 'Merienda';
+  }
+
+  p {
+    text-align: center;
+    
   }
 
 .btnHeader {
@@ -29,15 +33,13 @@ header {
     text-decoration: none;
     border: 0;
     outline: 0; /* Remove border around button */
-    color: blueviolet;
+    color: rgb(7, 6, 7);
     font-family: 'Merienda';font-size: 20px;
 }
 
 .btnHeader:hover {
 
-    background-color: pink;
-    
-  
+    background-color: rgb(162, 252, 144);
     
 }
 
@@ -45,7 +47,7 @@ header {
     border-radius: 12px;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: rgb(5, 220, 48);
     color: white;
     font-family: 'Merienda';font-size: 10px;
 }
@@ -63,11 +65,8 @@ header {
     font-family: 'Merienda';font-size: 22px;
 }
 
-
-
-
 #gridContainer {
-   /* width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
+    width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
     display: grid;
     grid-template-columns: repeat(2, 1fr) 2fr 1fr;  /* Create a 4X4 grid of same size*/
     grid-template-rows: repeat(10, 1fr); /* 4 rows of equal size */
@@ -118,8 +117,8 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
-    color: white;
+    background-color:rgb(56, 211, 97) ;
+    color: black;
     font-family: 'Merienda';font-size: 15px;
 }
 
@@ -130,9 +129,9 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
+    background-color: rgb(56, 211, 97);
     place-self: center;
-    color: white;
+    color: rgb(8, 8, 8);
     font-family: 'Merienda';font-size: 15px;
 }
 
@@ -140,11 +139,11 @@ header {
     grid-column: 1 / span 2;
     grid-row: 6 / span 1;
     padding: 10px 10px 10px 10px;
-    border-radius: 10%;
+    border-radius: 15%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
-    color: white;
+    background-color: rgb(56, 211, 97);
+    color: rgb(8, 8, 8);
     font-family: 'Merienda';font-size: 15px;
     margin-left: 25px;
 }
@@ -153,14 +152,14 @@ header {
     grid-column: 1 / span 2;
     grid-row: 7 / span 1;
     padding: 10px 10px 10px 10px;
-    border-radius: 10%;
+    border-radius: 15%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
-    color: white;
+    background-color: rgb(56, 211, 97);
+    color: rgb(8, 8, 8);
     font-family: 'Merienda';font-size: 15px;
     margin-left: 25px;
-    margin-left: 25px;
+    
 
 }
 
@@ -168,11 +167,11 @@ header {
     grid-column: 1 / span 2;
     grid-row: 8 / span 1;
     padding: 10px 10px 10px 10px;
-    border-radius: 10%;
+    border-radius: 15%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
-    color: white;
+    background-color:rgb(56, 211, 97) ;
+    color: rgb(8, 8, 8);
     font-family: 'Merienda';font-size: 15px;
     margin-left: 25px;
 }
@@ -181,19 +180,14 @@ header {
     grid-column: 1 / span 2;
     grid-row: 9 / span 1;
     padding: 10px 10px 10px 10px;
-    border-radius: 10%;
+    border-radius: 15%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: purple;
-    color: white;
+    background-color: rgb(56, 211, 97);
+    color: rgb(8, 8, 8);
     font-family: 'Merienda';font-size: 15px;
     margin-left: 25px;
 }
-
-
-
-
-
 
 #answer1:hover{
     
@@ -228,7 +222,7 @@ header {
 
 
 #answerCorrectWrongGrid {
-    /*width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
+    width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
     display: grid;
     grid-template-columns: 4fr;  /* Create a 4X4 grid of same size*/
     grid-template-rows: repeat(2, 1fr); /* 4 rows of equal size */
@@ -252,31 +246,31 @@ header {
     
     #answer1:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175);
         
     }
 
     #answer2:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175) ;
     
     }
 
     #answer3:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175);
     
     }
 
     #answer4:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175);
     
     }
 
     #submitScore:hover{
         
-        background-color: purple;
+        background-color: rgb(5, 134, 41);
     
     }
 
@@ -302,9 +296,6 @@ header {
     #answer4 {
         grid-column: 2 / span 2;
     }
-    
-  
-
 }
 
 
@@ -313,31 +304,31 @@ header {
 
     #answer1:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175);
         
     }
 
     #answer2:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175) ;
     
     }
 
     #answer3:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175);
     
     }
 
     #answer4:hover{
         
-        background-color: purple;
+        background-color: rgb(146, 237, 175);
     
     }
 
     #submitScore:hover{
         
-        background-color: purple;
+        background-color: rgb(5, 134, 41);
     
     }
 
