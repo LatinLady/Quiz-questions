@@ -6,7 +6,7 @@ var highScore = 50; // Score add fix for ticking timer.
 var finalAnswerCheck = 0 // If last answer was wrong it will be validated outside of the time interval and then display as enabled = 1 
 var checkTimes = 1 // Check timer times call for function on last question
 var viewHighScoresBtnEl = document.getElementById('view-high-scores'); // View High Scores Btn El
-var startQuizBtnEl = document.getElementById('start-quiz'); // Start Quiz button Btn El
+var startQuizBtnEl = document.getElementById('start-quiz'); // Start quiz button Btn El
 var answer1BtnEl = document.getElementById('answer1'); // answer1 button Btn El
 var answer2BtnEl = document.getElementById('answer2'); // answer2 button Btn El
 var answer3BtnEl = document.getElementById('answer3'); // answer3 button Btn El
@@ -138,9 +138,6 @@ submitScoreEl.addEventListener("click", function() { // Submit high scores
         
         }  
 
-
-
-              
         if ( quizUserDetails == checkUserValue[0] && highScore == checkUserValue[1] ) {
 
        
