@@ -35,7 +35,7 @@ var timer;
 //starts the countdown timer once user clicks the 'start' button
 function start() {
 
-timeLeft = 75;
+timeLeft = 60;
 document.getElementById("timeLeft").innerHTML = timeLeft;
 
 timer = setInterval(function() {
