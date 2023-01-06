@@ -7,6 +7,8 @@ Press the "Start" button to play
 Compete with the timer to complete the quiz as best you can. Wrong answers deduct time!
 Once completed, you will be prompted to enter your initials which will be saved on the scoreboard.
 
+This page was created with HTML, CSS and JavaScript.
+
 https://github.com/LatinLady/Quiz-questions.git
 
 ## Project Image
